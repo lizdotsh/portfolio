@@ -29,6 +29,6 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: portfolio
-          directory: 'output' # or _site or any other directory you used as project's output-dir in `_quarto.yml`
+          directory: '_site' # or _site or any other directory you used as project's output-dir in `_quarto.yml`
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           branch: prod
