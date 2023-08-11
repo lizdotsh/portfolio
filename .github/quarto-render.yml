@@ -1,0 +1,34 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto Publish to Cloudfare Pages
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      deployments: write 
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: false
+          
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
+      
+      - name: Publish
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: #cloudflare-project-id
+          directory: 'output' # or _site or any other directory you used as project's output-dir in `_quarto.yml`
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: prod
