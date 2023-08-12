@@ -29,7 +29,6 @@ download_and_extract() {
 
   # Copy content to merged directory
   cp -r "$TEMP_DIR/$REPO-$BRANCH/"* "$TARGET_DIR/$REPO"
-f
   # Cleanup downloaded files and temporary directory
   rm "$ZIP_FILE"
   rm -r "$TEMP_DIR"
@@ -37,7 +36,7 @@ f
 
 # Use the function for each repo
 download_and_extract "lizdotsh" "CS141_projects"
-download_and_extract "lizdotsh" "otree"
+download_and_extract "lizdotsh" "otree" "master"
 # Add more as needed...
 
 echo "All repositories have been downloaded and merged into $TARGET_DIR!"
