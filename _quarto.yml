@@ -1,7 +1,9 @@
 project:
   type: website
-  resources: |
-    "assets/*"
+  resources:
+    - assets/
+  
+
 
 
 website:
