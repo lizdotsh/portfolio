@@ -21,7 +21,7 @@ jobs:
           tinytex: false
       - name: build script
         run: |
-          chmod +x download_and_merge.sh
+          chmod +x build.sh
           bash build.sh
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
