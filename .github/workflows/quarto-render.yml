@@ -24,8 +24,7 @@ jobs:
           chmod +x build.sh
           bash build.sh
       - name: Render Quarto Project
-        uses: quarto-dev/quarto-actions/render@v2
-      
+        uses: quarto-dev/quarto-actions/render@v2 
       - name: Publish
         uses: cloudflare/pages-action@v1
         with:
