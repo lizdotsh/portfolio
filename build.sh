@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 # Define target directory for merged content
 TARGET_DIR="assets"
 
