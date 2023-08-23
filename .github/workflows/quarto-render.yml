@@ -33,4 +33,4 @@ jobs:
           projectName: portfolio
           directory: '_site' # or _site or any other directory you used as project's output-dir in `_quarto.yml`
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: prod
+          branch: main 
