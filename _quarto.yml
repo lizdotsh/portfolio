@@ -16,7 +16,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - "assets/Econometrics-assignments/Assignment 2/nhgis.ipynb" 
+      - href: "https://github.com/lizdotsh"
+        text: Github
 
 format:
   html:

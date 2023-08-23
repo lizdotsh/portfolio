@@ -3,7 +3,8 @@ title: "A portfolio of sorts"
 subtitle: "Just a quick index/reference of stuff I've done"
 format: 
     html: 
-        css: styles.css
+        toc: false
+        css: "styles.css"
 ---
 
 [Github](https://github.com/lizdotsh)
