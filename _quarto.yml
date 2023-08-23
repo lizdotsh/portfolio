@@ -1,5 +1,7 @@
 project:
   type: website
+  render: 
+    - index.qmd
   resources:
     - assets/
   
@@ -19,6 +21,6 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
+search: false
 
 

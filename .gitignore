@@ -8,3 +8,4 @@ _site/*
 _site
 
 assets/*
+site_libs/*
