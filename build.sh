@@ -42,6 +42,11 @@ download_and_extract "lizdotsh" "code_sample"
 download_and_extract "lizdotsh" "american-economic-mobility"
 download_and_extract "lizdotsh" "intermediate-macro-projects"
 download_and_extract "lizdotsh" "Econometrics-assignments"
+
+# Download specific github file and place it in target_dir
+mkdir "$TARGET_DIR/bayesian_pymc_linked_census_proj"
+wget "https://raw.githubusercontent.com/lizdotsh/bayesian_pymc_linked_census_proj/main/elizabeth_goodwin_final.ipynb" -O "$TARGET_DIR/bayesian_pymc_linked_census_proj/elizabeth_goodwin_final.ipynb"
+
 # Add more as needed...
 
 echo "All repositories have been downloaded and merged into $TARGET_DIR!"

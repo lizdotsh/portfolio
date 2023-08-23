@@ -52,7 +52,7 @@ format:
     <p>
     <b>Final Project</b>
     <table class="bayes"> <tr> 
-    <td> [Notebook and Writeup](https://github.com/lizdotsh/bayesian_pymc_linked_census_proj/blob/main/elizabeth_goodwin_final.ipynb)</td> 
+    <td> [Notebook and Writeup](assets/bayesian_pymc_linked_census_proj/elizabeth_goodwin_final.ipynb)</td> 
     <td>[Github](https://github.com/lizdotsh/bayesian_pymc_linked_census_proj)</td>
     </tr> </table>
 
