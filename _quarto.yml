@@ -15,7 +15,6 @@ website:
     left:
       - href: index.qmd
         text: Portfolio
-      - about.qmd
       - href: "https://github.com/lizdotsh"
         text: github
       - href: "mailto:work@lizgood.win"
