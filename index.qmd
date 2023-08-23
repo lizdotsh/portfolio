@@ -151,12 +151,12 @@ Also, there was a lot of weird trickery I did with symlinks when making it, so t
     </tr>
     <tr>
         <td> [Assignment 1](assets/intermediate-macro-projects/Assignment%201/final.pdf) </td>
-        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%201/scratch.ipynb) </td>
+        <td> [Code](assets/intermediate-macro-projects/Assignment%201/scratch.ipynb) </td>
         <td>Graphed and wrote up some inflation figures in python.</td>
     </tr>
     <tr>
         <td> [Assignment 2](assets/intermediate-macro-projects/Assignment%202/Assignment%202.pdf) </td>
-        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%202/data.ipynb)</td>
+        <td> [Code](assets/intermediate-macro-projects/Assignment%202/data.ipynb)</td>
         <td>Graphed T-bill and GDP forecasting data in python, also includes writeup.</td>
     </tr>
     <tr>
@@ -193,8 +193,8 @@ Anyways, here is what I have:
 <b> Assignment 2 </b>
 Problem set on various datasets. All done in python (note: I was very bad at python back then).
 <ul>
-    <li>[Main Notebook](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%202/nhgis.ipynb) </li>
-    <li>[Secondary Notebook](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%202/stuff.ipynb)</li>
+    <li>[Main Notebook](assets/Econometrics-assignments/Assignment%202/nhgis.ipynb)</li>
+    <li>[Secondary Notebook](assets/Econometrics-assignments/Assignment%202/stuff.ipynb)</li>
     <li>[Instructions](assets/Econometrics-assignments/Assignment%202/Assignment2_instructions.pdf)</li>
     <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%202) </li>
 </ul>
