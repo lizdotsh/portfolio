@@ -7,9 +7,6 @@ format:
         css: "styles.css"
 ---
 
-[Github](https://github.com/lizdotsh)
-[Email](mailto:work@lizgood.win)
-
 
 
 ## College

@@ -14,10 +14,13 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Portfolio
       - about.qmd
       - href: "https://github.com/lizdotsh"
-        text: Github
+        text: github
+      - href: "mailto:work@lizgood.win"
+        text: email
+ 
 
 format:
   html:
