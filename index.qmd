@@ -8,7 +8,7 @@ format:
 notebook-links: inline
 filters: 
     - lightbox
-lightbox: auto
+lightbox:   
 ---
 
 
