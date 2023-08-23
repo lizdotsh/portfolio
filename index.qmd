@@ -12,11 +12,22 @@ subtitle: "Just a quick index/reference of stuff I've done"
 ## College
 
 ### Senior Year 
+
 <details>
     <summary>Data Structures</summary>
-    My data structures course. Here are the links:
+    [Github](https://github.com/lizdotsh/Data-Structures-Projects)
+    Projects from my data structures course. Details in the github, but direct links to the PDFs below: 
 
-    yeah yeah yeah whatever 
+    <details>
+        <summary>[Assignment 1](assets/Data-Structures-Projects/P1-Sorting-Methods/)
+    | Project | Description |
+    | --- | --- |
+    | [P1 - Sorting Methods](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P1-Sorting-Methods) | This project compared sorting methods by using the .cover files generated in python. | 
+    | [P2 - Double Linked List](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P2-Double-Linked-List) | Simple implimentation of a doubly linked list. |
+    | [P3 - Deque and Hanoi](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P3-Deque-and-Hanoi) | Basically is just an extension of double linked list, a deque implimentation, a towers of hanoi implimentationm, and a lot of tests. |
+    | [P4 - AVL Tree](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P4-AVL-Tree) | Implimentation of a self balancing AVL Tree, and testing to go with it |
+
+
 </details>
 ### Junior Year
 

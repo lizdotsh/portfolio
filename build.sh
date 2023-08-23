@@ -37,6 +37,7 @@ download_and_extract() {
 # Use the function for each repo
 download_and_extract "lizdotsh" "CS141_projects"
 download_and_extract "lizdotsh" "otree" "master"
+download_and_extract "lizdotsh" "Data-Structures-Projects"
 # Add more as needed...
 
 echo "All repositories have been downloaded and merged into $TARGET_DIR!"
