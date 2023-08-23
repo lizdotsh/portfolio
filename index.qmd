@@ -12,7 +12,12 @@ subtitle: "Just a quick index/reference of stuff I've done"
 ## College
 
 ### Senior Year 
+<details>
+    <summary>Data Structures</summary>
+    My data structures course. Here are the links:
 
+    yeah yeah yeah whatever 
+</details>
 ### Junior Year
 
 ### Sophmore Year
