@@ -193,45 +193,45 @@ Anyways, here is what I have:
 <b> Assignment 2 </b>
 Problem set on various datasets. All done in python (note: I was very bad at python back then).
 <ul>
-    <li>[Instructions](assets/Econometrics-assignments/Assignment%202/Assignment2_instructions.pdf)</li>
-    <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%202) </li>
     <li>[Main Notebook](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%202/nhgis.ipynb) </li>
     <li>[Secondary Notebook](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%202/stuff.ipynb)</li>
+    <li>[Instructions](assets/Econometrics-assignments/Assignment%202/Assignment2_instructions.pdf)</li>
+    <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%202) </li>
 </ul>
 
 <b> Assignment 3 </b>
 Assignment on old faithful geyser data, intergenerational mobility, and robberies in chicago. All done in R and stata. 
 <ul>
+    <li>[Writeup, code, and figures (pdf)](assets/Econometrics-assignments/Assignment%203/assignment3.pdf) </li>
     <li>[Instructions](assets/Econometrics-assignments/Assignment%203/Assignment3_Instructions.pdf)</li>
     <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%203) </li>
-    <li>[Writeup, code, and figures (pdf)](assets/Econometrics-assignments/Assignment%203/assignment3.pdf) </li>
 
 </ul>
 
 <b> Assignment 4 </b> 
 Assignment on predicting credit scores, the potential outcomes model, and a few other things. All done in R (and a bit of stata).
 <ul>
+    <li>[Writeup](assets/Econometrics-assignments/Assignment%204/Assignment%204.pdf)</li>
     <li>[Instructions](assets/Econometrics-assignments/Assignment%204/Assignment4_Instructions.pdf)</li>
     <li>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%204/Assignment%204.Rmd)</li>
-    <li>[Writeup](assets/Econometrics-assignments/Assignment%204/Assignment%204.pdf)</li>
 </ul>
 
 <b> Assignment 5 </b>
 Similar to previous. About castle doctrine natural experiments, class sizes and student performance, and research design. All done in R and Stata.
 <ul>
+    <li>[Writeup](assets/Econometrics-assignments/Assignment%205/Assignment5-econ308.pdf)</li>
     <li>[Instructions](assets/Econometrics-assignments/Assignment%205/Assignment5_instructions.pdf)</li>
     <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%205) </li>
     <li>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%205/Assignment5-econ308.Rmd)</li>
-    <li>[Writeup](assets/Econometrics-assignments/Assignment%205/Assignment5-econ308.pdf)</li>
 </ul>
 
 <b>Final Exam</b>
 I just did my final exam in R markdown and LaTeX instead of by hand as it was a remote thing. Everyone else did by hand for the most part. Don't have access to the exam itself anymore. I also got the highest grade in the class. 
 
 <ul>
+    <li>[Final Exam Writeup](assets/Econometrics-assignments/Final/Final.pdf)</li>
     <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Final)</li>
     <li>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Final/Final.Rmd)</li>
-    <li>[Final Exam Writeup](assets/Econometrics-assignments/Final/Final.pdf)</li>
 </ul>
 
 </details>
