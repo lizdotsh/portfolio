@@ -1,1 +1,41 @@
 /* css styles */
+/* css styles */
+   
+.data-struct-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.data-struct-table tr td:first-child {
+    white-space: nowrap;
+}
+.data-struct-table tr td {
+
+    /* padding just to the right of the text */
+    padding-right: 10px;
+    padding: 3px
+}
+
+.data-struct-table caption {
+    text-align: left;
+}
+.bayes tr td {
+   /* padding-right: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: medium;
+    /*
+    padding-top: 5px;
+    padding-bottom: 5px;
+    */
+}
+.bayes table, td {
+    border: 1px solid grey; 
+}
+details {
+    margin-left: 1em;
+  }
+  
+summary {
+    margin-left: -1em;
+}

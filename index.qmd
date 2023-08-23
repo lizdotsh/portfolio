@@ -1,7 +1,9 @@
 ---
 title: "A portfolio of sorts"
 subtitle: "Just a quick index/reference of stuff I've done"
-
+format: 
+    html: 
+        css: styles.css
 ---
 
 [Github](https://github.com/lizdotsh)
@@ -15,21 +17,109 @@ subtitle: "Just a quick index/reference of stuff I've done"
 
 <details>
     <summary>Data Structures</summary>
+    
     [Github](https://github.com/lizdotsh/Data-Structures-Projects)
-    Projects from my data structures course. Details in the github, but direct links to the PDFs below: 
+    <table class="data-struct-table">
+    <caption>Projects from my data structures course. Details in the github, but direct links to the individual projects below:</caption>
+    <tr>
+        <th >Project</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td> [P1 - Sorting Methods](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P1-Sorting-Methods) </td>
+        <td> This project compared sorting methods by using the .cover files generated in python. </td>
+    </tr>
+    <tr>
+        <td> [P2 - Double Linked List](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P1-Sorting-Methods) </td>
+        <td> Simple implimentation of a doubly linked list. </td>
+    </tr>
+    <tr>
+        <td> [P3 - Deque and Hanoi](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P3-Deque-and-Hanoi)</td>
+        <td> Basically is just an extension of double linked list, a deque implimentation, a towers of hanoi implimentationm, and a lot of tests.</td>
+    </tr>
+    <tr>
+        <td> [P4 - AVL Tree](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P4-AVL-Tree) </td>
+        <td> Implimentation of a self balancing AVL Tree, and testing to go with it </td>
+    </tr>
+    </table>
 
-    <details>
-        <summary>[Assignment 1](assets/Data-Structures-Projects/P1-Sorting-Methods/)
-    | Project | Description |
-    | --- | --- |
-    | [P1 - Sorting Methods](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P1-Sorting-Methods) | This project compared sorting methods by using the .cover files generated in python. | 
-    | [P2 - Double Linked List](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P2-Double-Linked-List) | Simple implimentation of a doubly linked list. |
-    | [P3 - Deque and Hanoi](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P3-Deque-and-Hanoi) | Basically is just an extension of double linked list, a deque implimentation, a towers of hanoi implimentationm, and a lot of tests. |
-    | [P4 - AVL Tree](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P4-AVL-Tree) | Implimentation of a self balancing AVL Tree, and testing to go with it |
+    
+
+</details>
+
+<details>
+    <summary>Bayesian Econometrics</summary>
+    <p>
+    <b>Final Project</b>
+    <table class="bayes"> <tr> 
+    <td> [Notebook and Writeup](https://github.com/lizdotsh/bayesian_pymc_linked_census_proj/blob/main/elizabeth_goodwin_final.ipynb)</td> 
+    <td>[Github](https://github.com/lizdotsh/bayesian_pymc_linked_census_proj)</td>
+    </tr> </table>
+
+    This was made as a final project for my Bayesian econometrics class. All of the useful info is in the notebook.If any of the comments or anything are confusing, it's probably because of the target audience (my professor).
+
+    <details> 
+    <summary> TL;DR </summary>
+    <ul>
+    <li>It uses a full count census dataset, so I wouldn't try to run it. It took a long, long time to run on A100s. I did include a way (and the raw dataset) to run it using just a sample percentage of the dataset, though.</li>
+
+    <li>A lot of the processing is done in duckdb, and I did not include the database in the repo. the full size of is gigantic, far too big for github. I included the cut down samples after processing, though.</li>
+
+    <li>Jupyter could not load a large number of the figures without crashing, so they are all in the /figures directory. the chains of the models are also in .nc form in the /chains directory. I normally dislike jupyter because it is messy like this, but was a project requirement for me.</li>
+
+    <li>There are a lot of comments in the notebook, but I did not include a lot of the code that was used to generate the figures. I did include the code for the figures that were generated in python, though.</li>
+
+    </ul>
+    </details>
+</p>
+</details>
+     
+    
+<details>
+<summary>American Economic Mobility</summary>
+Papers and figures from my American Economic Mobility class.
+
+<table class="bayes"> <tr> 
+<td> [Github](https://github.com/lizdotsh/american-economic-mobility)</td>
+</tr> </table>
+<b> Final Project </b>: 
+
+A paper on the regional demographic and mobility trends in Virginia. Very similar to the dataset used on the bayesian model above, this is the first paper I used it with. Basically analysis of linked census microdata from 17th century full count decennial censuses. This has been unchanged since it's creation and I made it rushing last minute before the deadline, so keep that in mind ahah. 
+
+<table class="bayes"> <tr> 
+<td> [Term Paper](assets/american-economic-mobility/term_paper/term_paper.pdf)</td>
+<td>[Code (very messy...)](https://github.com/lizdotsh/american-economic-mobility/blob/main/term_paper/detailed_dive_code.qmd)
+</tr> </table>
+
+<b> Dubois Project: </b>
+
+An assignment to recreate our own visualizations based on W.E.B. Dubois' famous visualizations from the 1900 Paris Exposition. The code used to generate all this can be found [here](assets/american-economic-mobility/dubois/GOODWIN-source-code.html) and some notes about it can be found [here](assets/american-economic-mobility/dubois/GOODWIN-figure-notes.pdf).
+
+::: {.panel-tabset}
+
+### Migration Recreation
+
+This recreates it almost exactly but using the full 1900 census instead. 
+
+![Dubois Migration](assets/american-economic-mobility/dubois/lot-11931-no-08-GOODWIN.jpg)
+
+### Demographics Recreation
+This recreates a population pyramid he made, but this time using modern data. 
+![Dubois Demographics](assets/american-economic-mobility/dubois/lot-11931-no-53-GOODWIN.jpg)
+
+### Original (Inspired)
+A totally modern graphic I made in the same project. 
+![Dubois Demographics](assets/american-economic-mobility/dubois/original-GOODWIN.jpg)
+
+:::
 
 
 </details>
+
+
 ### Junior Year
+
+hi
 
 ### Sophmore Year
 
