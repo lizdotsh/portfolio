@@ -40,6 +40,8 @@ download_and_extract "lizdotsh" "otree" "master"
 download_and_extract "lizdotsh" "Data-Structures-Projects"
 download_and_extract "lizdotsh" "code_sample"
 download_and_extract "lizdotsh" "american-economic-mobility"
+download_and_extract "lizdotsh" "intermediate-macro-projects"
+download_and_extract "lizdotsh" "Econometrics-assignments"
 # Add more as needed...
 
 echo "All repositories have been downloaded and merged into $TARGET_DIR!"

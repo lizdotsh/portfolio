@@ -39,3 +39,22 @@ details {
 summary {
     margin-left: -1em;
 }
+.macro-table {
+    
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.macro-table tr td:first-child {
+    white-space: nowrap;
+}
+.macro-table tr td {
+
+    /* padding just to the right of the text */
+    padding-right: 10px;
+    padding: 5px;
+}
+
+.macro-table caption {
+    text-align: left;
+}

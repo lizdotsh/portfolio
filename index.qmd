@@ -13,10 +13,10 @@ format:
 
 ## College
 
-### Senior Year 
+#### Senior Year 
 
 <details>
-    <summary>Data Structures</summary>
+    <summary>Data Structures (Spring)</summary>
     
     [Github](https://github.com/lizdotsh/Data-Structures-Projects)
     <table class="data-struct-table">
@@ -48,7 +48,7 @@ format:
 </details>
 
 <details>
-    <summary>Bayesian Econometrics</summary>
+    <summary>Bayesian Econometrics (Spring)</summary>
     <p>
     <b>Final Project</b>
     <table class="bayes"> <tr> 
@@ -76,7 +76,7 @@ format:
      
     
 <details>
-<summary>American Economic Mobility</summary>
+<summary>American Economic Mobility (Fall)</summary>
 Papers and figures from my American Economic Mobility class.
 
 <table class="bayes"> <tr> 
@@ -116,12 +116,127 @@ A totally modern graphic I made in the same project.
 
 </details>
 
+<details>
+<summary>Experimental Economics (Fall)</summary>
 
-### Junior Year
 
-hi
+<b> Custom Otree Game </b>
 
-### Sophmore Year
+<table class="bayes"> <tr>
+<td> [Github](https://github.com/lizdotsh/otree) </td>
+<td> [Presentation of findings](https://docs.google.com/presentation/d/1oAIrXfzF234GycNY1PsgXXbmuSC5Ey7Hsli-W_Yckcg/edit?usp=sharing) </td>
+</tr> </table>
 
-### Freshman Year
+Created a custom otree UI to power an experiment run in my experimental economics class. Whole thing was hosted on heroku. 
+
+(Note: this was not normal for the class. I just made my own thing since the software everyone else used was horrible.)
+
+This was technically a group project I frankly I did almost all the work (and all of this part of it for sure). 
+
+Also, there was a lot of weird trickery I did with symlinks when making it, so the github repo is a little weird. Basically `public_goods/__init.__.py` programmatically renders depending on the name of the directory it's in, which depends on the symlink. So I wrote the stuff once to create multiple games. There are definitely better ways to do this, but I was in a rush and it worked.
+
+
+
+#### Junior Year
+
+<details>
+<summary> Intermediate Macroeconomics (Fall) </summary>
+
+<table class="macro-table">
+    <caption>Assignments from my Intermediate Macro Class. Details in the [github](https://github.com/lizdotsh/intermediate-macro-projects/), but direct links to the individual projects below:</caption>
+    <tr>
+        <th>PDF</th>
+        <th>Code</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td> [Assignment 1](assets/intermediate-macro-projects/Assignment%201/final.pdf) </td>
+        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%201/scratch.ipynb) </td>
+        <td>Graphed and wrote up some inflation figures in python.</td>
+    </tr>
+    <tr>
+        <td> [Assignment 2](assets/intermediate-macro-projects/Assignment%202/Assignment%202.pdf) </td>
+        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%202/data.ipynb)</td>
+        <td>Graphed T-bill and GDP forecasting data in python, also includes writeup.</td>
+    </tr>
+    <tr>
+        <td> [Assignment 3](assets/intermediate-macro-projects/Assignment%203/Data3.pdf) </td>
+        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%203/Data3.Rmd)</td> 
+        <td>This was first 'data project'. had to answer a bunch of data related questions about GDP data by looking into the details of the data. All done in R/R markdown.</td>
+    </tr>
+    <tr>
+        <td> [Assignment 4](assets/intermediate-macro-projects/Assignment%204/PS4.pdf) </td>
+        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%204/PS4.Rmd)</td>
+        <td>Problem set. I don't have the original problems but I copied all the written ones in the PDF. All done in R markdown. Includes a bunch of custom LaTeX graphics (not part of the assignment, I was just showing off lol)</td>
+    </tr>
+    <tr>
+        <td> [Assignment 5](assets/intermediate-macro-projects/Assignment%205/PS5---Macro.pdf) </td>
+        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%205/PS5%20-%20Macro.Rmd)</td>
+        <td>Another, different problem set. Answered a bunch of theoretical macro questions and made a bunch of latex graphics. All in R markdown.</td>
+    </tr>
+</table>
+<details>
+<summary>Note:</summary>
+None of these projects were intended to involve actual programming and were supposed to be done in excel. I just intentionally replicated everything in a mix of R and Python so I could learn R/Python better. As this was much more of a first learning experience, this is from when I was very inexperienced and please take any bad code with grain of salt. I had only lightly used python before this class, and had never in my life used R before. Also did a lot of LaTeX graphics and equations, as most of the non-graph related assignments were intended to be done by hand (I wanted to show off).
+
+</details>
+
+</details>
+
+<details>
+<summary> Econometrics (Fall) </summary>
+
+Easily my favorite class I have ever taken, made me fall in love with econ/stats. Unfortunately, I didn't keep track of all the files that well. They are also spread between stata, R, and python. Everything was assigned in stata, but I redid most of the assignments in R or Python to learn them better.
+
+Anyways, here is what I have: 
+
+<b> Assignment 2 </b>
+Problem set on various datasets. All done in python (note: I was very bad at python back then).
+<ul>
+    <li>[Instructions](assets/Econometrics-assignments/Assignment%202/Assignment2_instructions.pdf)</li>
+    <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%202) </li>
+    <li>[Main Notebook](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%202/nhgis.ipynb) </li>
+    <li>[Secondary Notebook](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%202/stuff.ipynb)</li>
+</ul>
+
+<b> Assignment 3 </b>
+Assignment on old faithful geyser data, intergenerational mobility, and robberies in chicago. All done in R and stata. 
+<ul>
+    <li>[Instructions](assets/Econometrics-assignments/Assignment%203/Assignment3_Instructions.pdf)</li>
+    <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%203) </li>
+    <li>[Writeup, code, and figures (pdf)](assets/Econometrics-assignments/Assignment%203/assignment3.pdf) </li>
+
+</ul>
+
+<b> Assignment 4 </b> 
+Assignment on predicting credit scores, the potential outcomes model, and a few other things. All done in R (and a bit of stata).
+<ul>
+    <li>[Instructions](assets/Econometrics-assignments/Assignment%204/Assignment4_Instructions.pdf)</li>
+    <li>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%204/Assignment%204.Rmd)</li>
+    <li>[Writeup](assets/Econometrics-assignments/Assignment%204/Assignment%204.pdf)</li>
+</ul>
+
+<b> Assignment 5 </b>
+Similar to previous. About castle doctrine natural experiments, class sizes and student performance, and research design. All done in R and Stata.
+<ul>
+    <li>[Instructions](assets/Econometrics-assignments/Assignment%205/Assignment5_instructions.pdf)</li>
+    <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%205) </li>
+    <li>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%205/Assignment5-econ308.Rmd)</li>
+    <li>[Writeup](assets/Econometrics-assignments/Assignment%205/Assignment5-econ308.pdf)</li>
+</ul>
+
+<b>Final Exam</b>
+I just did my final exam in R markdown and LaTeX instead of by hand as it was a remote thing. Everyone else did by hand for the most part. Don't have access to the exam itself anymore. I also got the highest grade in the class. 
+
+<ul>
+    <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Final)</li>
+    <li>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Final/Final.Rmd)</li>
+    <li>[Final Exam Writeup](assets/Econometrics-assignments/Final/Final.pdf)</li>
+</ul>
+
+</details>
+
+#### Sophmore Year
+
+#### Freshman Year
 
