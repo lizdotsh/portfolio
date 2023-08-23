@@ -10,11 +10,11 @@ project:
 
 
 website:
-  title: "Liz Goodwin"
+  title: "liz goodwin"
   navbar:
     left:
       - href: index.qmd
-        text: Portfolio
+        text: portfolio
       - href: "https://github.com/lizdotsh"
         text: github
       - href: "mailto:work@lizgood.win"
