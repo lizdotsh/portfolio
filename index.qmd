@@ -5,6 +5,10 @@ format:
     html: 
         toc: false
         css: "styles.css"
+notebook-links: inline
+filters: 
+    - lightbox
+lightbox: auto
 ---
 
 
