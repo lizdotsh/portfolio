@@ -12,7 +12,24 @@ lightbox: auto
 fontsize: 11pt
 ---
 
-This page is automatically built using quarto and github actions and automatically deployed to Cloudflare Pages. All notebook links are rendered directly into the website using quarto/pandoc. All resoures are loaded in dynamically with the build script from their respective github repos (when neccessary). This page is very much a WIP and not everything is on here yet.
+This page is very much a WIP and not everything is on here yet.
+
+## Projects
+
+### This Portfolio!
+<table class="bayes"> <tr>
+<td> [Github](https://github.com/lizdotsh/portfolio)</td>
+</tr> </table>
+This portfolio site is automatically built using quarto and deployed to Cloudflare Pages using github actions containers. Also, quarto renders all inline linked notebooks as sub pages on this site, and all static assets are hosted as well. All of these are also kept up to date, as every asset or notebook linked is downloaded at build time by build.sh and put in the assets folder directly. I also have my resume available at https://resume.lizgood.win, also hosted on cloudflare pages.
+
+
+### Municipal Finance OCR Project
+
+<table class="bayes"> <tr>
+<td> [Github](https://github.com/lizdotsh/MunicipalFinancesOCR) </td>
+</tr> </table>
+
+Small package I wrote as a Research Assistant to help digitize 800+ page scanned PDFs of municipal bond data from Moody's Analytics. It's quite messy and like context-dependent, and I never got a chance to finish it, but I learned a lot. Uses the GCP OCR API in combination with the LayoutParser package and their tablebank model. Eventually I got access to a already digitized one, and used gpt-3 to auto-simplify the human entered categories into a more standardized format. I don't have that code in front of me though.  
 
 ## College Projects
 
