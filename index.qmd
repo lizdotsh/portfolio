@@ -20,7 +20,11 @@ This page is very much a WIP and not everything is on here yet.
 <table class="bayes"> <tr>
 <td> [Github](https://github.com/lizdotsh/portfolio)</td>
 </tr> </table>
-This portfolio site is automatically built using quarto and deployed to Cloudflare Pages using github actions containers. Also, quarto renders all inline linked notebooks as sub pages on this site, and all static assets are hosted as well. All of these are also kept up to date, as every asset or notebook linked is downloaded at build time by build.sh and put in the assets folder directly. I also have my resume available at https://resume.lizgood.win, also hosted on cloudflare pages.
+This portfolio site is automatically built using quarto and deployed to Cloudflare Pages using github actions containers. All linked notebooks are rendered as well as native sub pages, and all PDFs and other linked documents are directly hosted in /assets. 
+
+All assets are not directly part of the repo itself, but are downloaded by the cloudflare action using build.sh. This allows me to change and sub project and still have the latest version at any regen, and allows me to have separate github repos for each project.
+
+I also have my resume available at https://resume.lizgood.win, also hosted on cloudflare pages.
 
 
 ### Municipal Finance OCR Project
