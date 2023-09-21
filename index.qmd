@@ -24,9 +24,6 @@ This portfolio site is automatically built using quarto and deployed to Cloudfla
 
 All assets are not directly part of the repo itself, but are downloaded by the cloudflare action using build.sh. This allows me to change and sub project and still have the latest version at any regen, and allows me to have separate github repos for each project.
 
-I also have my resume available at https://resume.lizgood.win, also hosted on cloudflare pages.
-
-
 ### Municipal Finance OCR Project
 
 <table class="bayes"> <tr>
