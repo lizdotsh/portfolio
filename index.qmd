@@ -16,6 +16,8 @@ This page is automatically built using quarto and github actions and automatical
 
 ## College Projects
 
+These are sort of in order, but not precisely. 
+
 ### Bayesian Econometrics Project (Spring 2023)
 
 <p>
@@ -133,46 +135,7 @@ This was technically a group project I frankly I did almost all the work (and al
 Also, there was a lot of weird trickery I did with symlinks when making it, so the github repo is a little weird. Basically `public_goods/__init.__.py` programmatically renders depending on the name of the directory it's in, which depends on the symlink. So I wrote the stuff once to create multiple games. There are definitely better ways to do this, but I was in a rush and it worked.
 
 
-### Intermediate Macroeconomics (Fall 2021)
 
-<table class="macro-table">
-    <caption>Assignments from my Intermediate Macro Class. Details in the [github](https://github.com/lizdotsh/intermediate-macro-projects/), but direct links to the individual projects below:</caption>
-    <tr>
-        <th>PDF</th>
-        <th>Code</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td> [Assignment 1](assets/intermediate-macro-projects/Assignment%201/final.pdf) </td>
-        <td> [Code](assets/intermediate-macro-projects/Assignment%201/scratch.ipynb) </td>
-        <td>Graphed and wrote up some inflation figures in python.</td>
-    </tr>
-    <tr>
-        <td> [Assignment 2](assets/intermediate-macro-projects/Assignment%202/Assignment%202.pdf) </td>
-        <td> [Code](assets/intermediate-macro-projects/Assignment%202/data.ipynb)</td>
-        <td>Graphed T-bill and GDP forecasting data in python, also includes writeup.</td>
-    </tr>
-    <tr>
-        <td> [Assignment 3](assets/intermediate-macro-projects/Assignment%203/Data3.pdf) </td>
-        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%203/Data3.Rmd)</td> 
-        <td>This was first 'data project'. had to answer a bunch of data related questions about GDP data by looking into the details of the data. All done in R/R markdown.</td>
-    </tr>
-    <tr>
-        <td> [Assignment 4](assets/intermediate-macro-projects/Assignment%204/PS4.pdf) </td>
-        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%204/PS4.Rmd)</td>
-        <td>Problem set. I don't have the original problems but I copied all the written ones in the PDF. All done in R markdown. Includes a bunch of custom LaTeX graphics (not part of the assignment, I was just showing off lol)</td>
-    </tr>
-    <tr>
-        <td> [Assignment 5](assets/intermediate-macro-projects/Assignment%205/PS5---Macro.pdf) </td>
-        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%205/PS5%20-%20Macro.Rmd)</td>
-        <td>Another, different problem set. Answered a bunch of theoretical macro questions and made a bunch of latex graphics. All in R markdown.</td>
-    </tr>
-</table>
-<details>
-<summary>Note:</summary>
-None of these projects were intended to involve actual programming and were supposed to be done in excel. I just intentionally replicated everything in a mix of R and Python so I could learn R/Python better. As this was much more of a first learning experience, this is from when I was very inexperienced and please take any bad code with grain of salt. I had only lightly used python before this class, and had never in my life used R before. Also did a lot of LaTeX graphics and equations, as most of the non-graph related assignments were intended to be done by hand (I wanted to show off).
-
-</details>
 
 ### Time Series Econometrics (Spring 2022)
 <table class="bayes"> <tr> 
@@ -279,3 +242,43 @@ I just did my final exam in R markdown and LaTeX instead of by hand as it was a 
 
 
 
+### Intermediate Macroeconomics (Fall 2021)
+
+<table class="macro-table">
+    <caption>Assignments from my Intermediate Macro Class. Details in the [github](https://github.com/lizdotsh/intermediate-macro-projects/), but direct links to the individual projects below:</caption>
+    <tr>
+        <th>PDF</th>
+        <th>Code</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td> [Assignment 1](assets/intermediate-macro-projects/Assignment%201/final.pdf) </td>
+        <td> [Code](assets/intermediate-macro-projects/Assignment%201/scratch.ipynb) </td>
+        <td>Graphed and wrote up some inflation figures in python.</td>
+    </tr>
+    <tr>
+        <td> [Assignment 2](assets/intermediate-macro-projects/Assignment%202/Assignment%202.pdf) </td>
+        <td> [Code](assets/intermediate-macro-projects/Assignment%202/data.ipynb)</td>
+        <td>Graphed T-bill and GDP forecasting data in python, also includes writeup.</td>
+    </tr>
+    <tr>
+        <td> [Assignment 3](assets/intermediate-macro-projects/Assignment%203/Data3.pdf) </td>
+        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%203/Data3.Rmd)</td> 
+        <td>This was first 'data project'. had to answer a bunch of data related questions about GDP data by looking into the details of the data. All done in R/R markdown.</td>
+    </tr>
+    <tr>
+        <td> [Assignment 4](assets/intermediate-macro-projects/Assignment%204/PS4.pdf) </td>
+        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%204/PS4.Rmd)</td>
+        <td>Problem set. I don't have the original problems but I copied all the written ones in the PDF. All done in R markdown. Includes a bunch of custom LaTeX graphics (not part of the assignment, I was just showing off lol)</td>
+    </tr>
+    <tr>
+        <td> [Assignment 5](assets/intermediate-macro-projects/Assignment%205/PS5---Macro.pdf) </td>
+        <td> [Code](https://github.com/lizdotsh/intermediate-macro-projects/blob/main/Assignment%205/PS5%20-%20Macro.Rmd)</td>
+        <td>Another, different problem set. Answered a bunch of theoretical macro questions and made a bunch of latex graphics. All in R markdown.</td>
+    </tr>
+</table>
+<details>
+<summary>Note:</summary>
+None of these projects were intended to involve actual programming and were supposed to be done in excel. I just intentionally replicated everything in a mix of R and Python so I could learn R/Python better. As this was much more of a first learning experience, this is from when I was very inexperienced and please take any bad code with grain of salt. I had only lightly used python before this class, and had never in my life used R before. Also did a lot of LaTeX graphics and equations, as most of the non-graph related assignments were intended to be done by hand (I wanted to show off).
+
+</details>
