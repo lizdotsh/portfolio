@@ -9,76 +9,67 @@ notebook-links: inline
 filters: 
     - lightbox
 lightbox: auto
+fontsize: 11pt
 ---
 
+This page is automatically built using quarto and github actions and automatically deployed to Cloudflare Pages. All notebook links are rendered directly into the website using quarto/pandoc. All resoures are loaded in dynamically with the build script from their respective github repos (when neccessary). This page is very much a WIP and not everything is on here yet.
 
+## College Projects
 
-## College
+### Bayesian Econometrics Project (Spring 2023)
 
-#### Senior Year 
+<p>
+<table class="bayes"> <tr> 
+<td> [Notebook and Writeup](assets/bayesian_pymc_linked_census_proj/elizabeth_goodwin_final.ipynb)</td> 
+<td>[Github](https://github.com/lizdotsh/bayesian_pymc_linked_census_proj)</td>
+</tr> </table>
 
-<details>
-    <summary>Data Structures (Spring)</summary>
-    
-    [Github](https://github.com/lizdotsh/Data-Structures-Projects)
-    <table class="data-struct-table">
-    <caption>Projects from my data structures course. Details in the github, but direct links to the individual projects below:</caption>
-    <tr>
-        <th >Project</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td> [P1 - Sorting Methods](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P1-Sorting-Methods) </td>
-        <td> This project compared sorting methods by using the .cover files generated in python. </td>
-    </tr>
-    <tr>
-        <td> [P2 - Double Linked List](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P1-Sorting-Methods) </td>
-        <td> Simple implimentation of a doubly linked list. </td>
-    </tr>
-    <tr>
-        <td> [P3 - Deque and Hanoi](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P3-Deque-and-Hanoi)</td>
-        <td> Basically is just an extension of double linked list, a deque implimentation, a towers of hanoi implimentationm, and a lot of tests.</td>
-    </tr>
-    <tr>
-        <td> [P4 - AVL Tree](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P4-AVL-Tree) </td>
-        <td> Implimentation of a self balancing AVL Tree, and testing to go with it </td>
-    </tr>
-    </table>
+This was made as a final project for my Bayesian econometrics class. All of the useful info is in the notebook.If any of the comments or anything are confusing, it's probably because of the target audience (my professor).
 
-    
+<details> 
+<summary> TL;DR </summary>
+<ul>
+<li>It uses a full count census dataset, so I wouldn't try to run it. It took a long, long time to run on A100s. I did include a way (and the raw dataset) to run it using just a sample percentage of the dataset, though.</li>
 
+<li>A lot of the processing is done in duckdb, and I did not include the database in the repo. the full size of is gigantic, far too big for github. I included the cut down samples after processing, though.</li>
+
+<li>Jupyter could not load a large number of the figures without crashing, so they are all in the /figures directory. the chains of the models are also in .nc form in the /chains directory. I normally dislike jupyter because it is messy like this, but was a project requirement for me.</li>
+
+<li>There are a lot of comments in the notebook, but I did not include a lot of the code that was used to generate the figures. I did include the code for the figures that were generated in python, though.</li>
+
+</ul>
 </details>
-
-<details>
-    <summary>Bayesian Econometrics (Spring)</summary>
-    <p>
-    <b>Final Project</b>
-    <table class="bayes"> <tr> 
-    <td> [Notebook and Writeup](assets/bayesian_pymc_linked_census_proj/elizabeth_goodwin_final.ipynb)</td> 
-    <td>[Github](https://github.com/lizdotsh/bayesian_pymc_linked_census_proj)</td>
-    </tr> </table>
-
-    This was made as a final project for my Bayesian econometrics class. All of the useful info is in the notebook.If any of the comments or anything are confusing, it's probably because of the target audience (my professor).
-
-    <details> 
-    <summary> TL;DR </summary>
-    <ul>
-    <li>It uses a full count census dataset, so I wouldn't try to run it. It took a long, long time to run on A100s. I did include a way (and the raw dataset) to run it using just a sample percentage of the dataset, though.</li>
-
-    <li>A lot of the processing is done in duckdb, and I did not include the database in the repo. the full size of is gigantic, far too big for github. I included the cut down samples after processing, though.</li>
-
-    <li>Jupyter could not load a large number of the figures without crashing, so they are all in the /figures directory. the chains of the models are also in .nc form in the /chains directory. I normally dislike jupyter because it is messy like this, but was a project requirement for me.</li>
-
-    <li>There are a lot of comments in the notebook, but I did not include a lot of the code that was used to generate the figures. I did include the code for the figures that were generated in python, though.</li>
-
-    </ul>
-    </details>
 </p>
-</details>
-     
-    
-<details>
-<summary>American Economic Mobility (Fall)</summary>
+
+### Data Structures Projects (Spring 2023)
+
+[Github](https://github.com/lizdotsh/Data-Structures-Projects)
+<table class="data-struct-table">
+<caption>Projects from my data structures course. Details in the github, but direct links to the individual projects below:</caption>
+<tr>
+    <th >Project</th>
+    <th>Description</th>
+</tr>
+<tr>
+    <td> [P1 - Sorting Methods](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P1-Sorting-Methods) </td>
+    <td> This project compared sorting methods by using the .cover files generated in python. </td>
+</tr>
+<tr>
+    <td> [P2 - Double Linked List](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P1-Sorting-Methods) </td>
+    <td> Simple implimentation of a doubly linked list. </td>
+</tr>
+<tr>
+    <td> [P3 - Deque and Hanoi](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P3-Deque-and-Hanoi)</td>
+    <td> Basically is just an extension of double linked list, a deque implimentation, a towers of hanoi implimentationm, and a lot of tests.</td>
+</tr>
+<tr>
+    <td> [P4 - AVL Tree](https://github.com/lizdotsh/Data-Structures-Projects/tree/main/P4-AVL-Tree) </td>
+    <td> Implimentation of a self balancing AVL Tree, and testing to go with it </td>
+</tr>
+</table>
+
+### American Economic Mobility (Fall 2022)
+
 Papers and figures from my American Economic Mobility class.
 
 <table class="bayes"> <tr> 
@@ -99,28 +90,32 @@ An assignment to recreate our own visualizations based on W.E.B. Dubois' famous 
 
 ::: {.panel-tabset}
 
-### Migration Recreation
+#### Original (Inspired)
+A totally modern graphic I made in the same project. 
+
+![Dubois Demographics](assets/american-economic-mobility/dubois/original-GOODWIN.jpg){height=600}
+
+#### Migration Recreation
 
 This recreates it almost exactly but using the full 1900 census instead. 
 
-![Dubois Migration](assets/american-economic-mobility/dubois/lot-11931-no-08-GOODWIN.jpg)
+![Dubois Migration](assets/american-economic-mobility/dubois/lot-11931-no-08-GOODWIN.jpg){height=600}
 
-### Demographics Recreation
-This recreates a population pyramid he made, but this time using modern data. 
+#### Demographics Recreation
+This recreates a population pyramid he made, but this time using modern data.
+
 ![Dubois Demographics](assets/american-economic-mobility/dubois/lot-11931-no-53-GOODWIN.jpg)
 
-### Original (Inspired)
-A totally modern graphic I made in the same project. 
-![Dubois Demographics](assets/american-economic-mobility/dubois/original-GOODWIN.jpg)
 
 :::
 
 
-</details>
 
-<details>
-<summary>Experimental Economics (Fall)</summary>
 
+
+    
+
+### Experimental Economics (Fall 2022)
 
 <b> Custom Otree Game </b>
 
@@ -138,11 +133,7 @@ This was technically a group project I frankly I did almost all the work (and al
 Also, there was a lot of weird trickery I did with symlinks when making it, so the github repo is a little weird. Basically `public_goods/__init.__.py` programmatically renders depending on the name of the directory it's in, which depends on the symlink. So I wrote the stuff once to create multiple games. There are definitely better ways to do this, but I was in a rush and it worked.
 
 
-
-#### Junior Year
-
-<details>
-<summary> Intermediate Macroeconomics (Fall) </summary>
+### Intermediate Macroeconomics (Fall 2021)
 
 <table class="macro-table">
     <caption>Assignments from my Intermediate Macro Class. Details in the [github](https://github.com/lizdotsh/intermediate-macro-projects/), but direct links to the individual projects below:</caption>
@@ -183,10 +174,59 @@ None of these projects were intended to involve actual programming and were supp
 
 </details>
 
-</details>
+### Time Series Econometrics (Spring 2022)
+<table class="bayes"> <tr> 
+    <td>[Github](https://github.com/lizdotsh/Time-Series-Econometrics-Projects)</td>
+</tr> </table>
 
-<details>
-<summary> Econometrics (Fall) </summary>
+
+Super interesting class. Time series/forecasting stuff is fascinating to me. Unfortunately the professor was very old so a lot of stuff was done in.... eviews. I redid as much as I could in R's tidymodels/fable ecosystem but some stuff wasn't easily replicable. All are only available in PDF form. Almost all of this is done in R Markdown.
+
+<table class="macro-table">
+    <tr>
+        <th>PDF</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>[HW1](assets/Time-Series-Econometrics-Projects/HW1.pdf) </td>
+        <td>Simple assignment where we basically just redid OLS by hand. It wasn't supposed to be printed out like this but I wanted practice on my LaTeX skills.</td>
+    </tr>
+    <tr>
+        <td>[Forecasting Project](assets/Time-Series-Econometrics-Projects/Forecasting.pdf)</td>
+        <td>Was given crime data up to a certain point. Was completely open ended, and your grade was determined by the MAPE of your forecast.</td>
+    </tr>
+    <tr>
+        <td>[VAR Assignment](assets/Time-Series-Econometrics-Projects/VAR.pdf)</td>
+        <td>Extension of the forecasting project but using vector autoregressions.</td>
+    </tr>
+    <tr>
+        <td>[Unit Root Assignment](assets/Time-Series-Econometrics-Projects/unitroot.pdf)</td>
+        <td>Assignment to assess if GDP has a unit root or not. Again, old professor so old data ahah.</td>
+    </tr>
+    <tr>
+        <td>[PPP Breakpoint Assignment](assets/Time-Series-Econometrics-Projects/PPP.pdf)</td>
+        <td>Assignment on breakpoint testing using an example of a purchasing power parity GDP time series.</td>
+    </tr>
+    <tr>
+        <td>[DOLS Assignment](assets/Time-Series-Econometrics-Projects/DOLS.pdf)</td>
+        <td>Assignment on using DOLS. All done in eviews.</td>
+    </tr>
+    <tr>
+        <td>[Money Demand in the US](assets/Time-Series-Econometrics-Projects/MDUS.pdf)</td>
+        <td>Focusing on similar problem to breakpoint and Unit Root ones, but on money demand on the US and elasticities to inflation/interest rates. iirc this replicated some Friedman paper.</td>
+    </tr>
+    <tr>
+        <td>[Money Demand in the UK](assets/Time-Series-Econometrics-Projects/MDUK.pdf)</td>
+        <td>Essentially same this as before, but for the UK. Uses some more advanced Time Series techniques.</td>
+    </tr>
+    <tr>
+        <td>[Term Paper - Seattle Bridge Closure](assets/Time-Series-Econometrics-Projects/bridge.pdf)</td>
+        <td>Term paper/project for the class. I did this on a fixed effects model trying to use the closure of the Seattle Bridge for several years as a natural experiment to measure the effect of transit times on housing values. Causality was very messy (esp as home values are forward looking...) but was pretty interesting to investigate nonetheless.</td>
+    </tr>
+</table>
+
+
+### Econometrics (Fall 2021)
 
 Easily my favorite class I have ever taken, made me fall in love with econ/stats. Unfortunately, I didn't keep track of all the files that well. They are also spread between stata, R, and python. Everything was assigned in stata, but I redid most of the assignments in R or Python to learn them better.
 
@@ -194,51 +234,48 @@ Anyways, here is what I have:
 
 <b> Assignment 2 </b>
 Problem set on various datasets. All done in python (note: I was very bad at python back then).
-<ul>
-    <li>[Main Notebook](assets/Econometrics-assignments/Assignment%202/nhgis.ipynb)</li>
-    <li>[Secondary Notebook](assets/Econometrics-assignments/Assignment%202/stuff.ipynb)</li>
-    <li>[Instructions](assets/Econometrics-assignments/Assignment%202/Assignment2_instructions.pdf)</li>
-    <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%202) </li>
-</ul>
+
+<table class="bayes"> <tr> 
+    <td>[Main Notebook](assets/Econometrics-assignments/Assignment%202/nhgis.ipynb)</td>
+    <td>[Secondary Notebook](assets/Econometrics-assignments/Assignment%202/stuff.ipynb)</td>
+    <td>[Instructions](assets/Econometrics-assignments/Assignment%202/Assignment2_instructions.pdf)</td>
+    <td>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%202) </td>
+</tr> </table>
 
 <b> Assignment 3 </b>
 Assignment on old faithful geyser data, intergenerational mobility, and robberies in chicago. All done in R and stata. 
-<ul>
-    <li>[Writeup, code, and figures (pdf)](assets/Econometrics-assignments/Assignment%203/assignment3.pdf) </li>
-    <li>[Instructions](assets/Econometrics-assignments/Assignment%203/Assignment3_Instructions.pdf)</li>
-    <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%203) </li>
+<table class = "bayes"><tr>
+    <td>[Writeup, code, and figures (pdf)](assets/Econometrics-assignments/Assignment%203/assignment3.pdf) </td>
+    <td>[Instructions](assets/Econometrics-assignments/Assignment%203/Assignment3_Instructions.pdf)</td>
+    <td>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%203) </td>
 
-</ul>
+</td></table>
 
 <b> Assignment 4 </b> 
 Assignment on predicting credit scores, the potential outcomes model, and a few other things. All done in R (and a bit of stata).
-<ul>
-    <li>[Writeup](assets/Econometrics-assignments/Assignment%204/Assignment%204.pdf)</li>
-    <li>[Instructions](assets/Econometrics-assignments/Assignment%204/Assignment4_Instructions.pdf)</li>
-    <li>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%204/Assignment%204.Rmd)</li>
-</ul>
+<table class = "bayes"><tr>
+    <td>[Writeup](assets/Econometrics-assignments/Assignment%204/Assignment%204.pdf)</td>
+    <td>[Instructions](assets/Econometrics-assignments/Assignment%204/Assignment4_Instructions.pdf)</td>
+    <td>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%204/Assignment%204.Rmd)</td>
+</td></table>
 
 <b> Assignment 5 </b>
 Similar to previous. About castle doctrine natural experiments, class sizes and student performance, and research design. All done in R and Stata.
-<ul>
-    <li>[Writeup](assets/Econometrics-assignments/Assignment%205/Assignment5-econ308.pdf)</li>
-    <li>[Instructions](assets/Econometrics-assignments/Assignment%205/Assignment5_instructions.pdf)</li>
-    <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%205) </li>
-    <li>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%205/Assignment5-econ308.Rmd)</li>
-</ul>
+<table class = "bayes"><tr>
+    <td>[Writeup](assets/Econometrics-assignments/Assignment%205/Assignment5-econ308.pdf)</td>
+    <td>[Instructions](assets/Econometrics-assignments/Assignment%205/Assignment5_instructions.pdf)</td>
+    <td>[Github](https://github.com/lizdotsh/Econometrics-assignments/tree/main/Assignment%205) </td>
+    <td>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Assignment%205/Assignment5-econ308.Rmd)</td>
+</td></table>
 
 <b>Final Exam</b>
 I just did my final exam in R markdown and LaTeX instead of by hand as it was a remote thing. Everyone else did by hand for the most part. Don't have access to the exam itself anymore. I also got the highest grade in the class. 
 
-<ul>
-    <li>[Final Exam Writeup](assets/Econometrics-assignments/Final/Final.pdf)</li>
-    <li>[Github](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Final)</li>
-    <li>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Final/Final.Rmd)</li>
-</ul>
+<table class = "bayes"><tr>
+    <td>[Final Exam Writeup](assets/Econometrics-assignments/Final/Final.pdf)</td>
+    <td>[Github](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Final)</td>
+    <td>[Code](https://github.com/lizdotsh/Econometrics-assignments/blob/main/Final/Final.Rmd)</td>
+</td></table>
 
-</details>
 
-#### Sophmore Year
-
-#### Freshman Year
 

@@ -42,6 +42,7 @@ download_and_extract "lizdotsh" "code_sample"
 download_and_extract "lizdotsh" "american-economic-mobility"
 download_and_extract "lizdotsh" "intermediate-macro-projects"
 download_and_extract "lizdotsh" "Econometrics-assignments"
+download_and_extract "lizdotsh" "Time-Series-Econometrics-Projects"
 
 # Download specific github file and place it in target_dir
 mkdir "$TARGET_DIR/bayesian_pymc_linked_census_proj"
