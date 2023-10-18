@@ -10,7 +10,7 @@ project:
 
 
 website:
-  title: "liz goodwin"
+  title: "liz's portfolio" 
   navbar:
     left:
       - href: index.qmd
