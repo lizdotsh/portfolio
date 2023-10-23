@@ -24,6 +24,13 @@ This portfolio site is automatically built using quarto and deployed to Cloudfla
 
 All assets are not directly part of the repo itself, but are downloaded by the cloudflare action using build.sh. This allows me to change and sub project and still have the latest version at any regen, and allows me to have separate github repos for each project.
 
+### Apple Photos DB Examiner (WIP)
+<table class="bayes">
+<td> [Github](https://github.com/lizdotsh/Apple-Photos-DB-Examiner)
+</tr></table>
+
+Made an electron app that processes the local sqlite databse used by Apple Photos to create an interactive visualization of various internal ML metrics used by Apple to categorize/rate your photos. Quality scores, detected age/facial expressions/race/sex/etc, etc. Very WIP at the moment but is usable. Made with a mix of svelte/electron/observable plot.
+
 ### Municipal Finance OCR Project
 
 <table class="bayes"> <tr>
