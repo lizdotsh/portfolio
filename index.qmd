@@ -37,7 +37,7 @@ different hash seeds, it gets quite accurate (central limit theorem is very usef
 <td> [Github](https://github.com/lizdotsh/Apple-Photos-DB-Explorer)
 </tr></table>
 
-Made an electron app that automatically processes the local sqlite databse used by Apple Photos to create an interactive visualization of various internal ML metrics used by Apple to categorize/rate your photos. Quality scores, detected age/facial expressions/race/sex/etc, etc. Made with a mix of svelte/electron/observable plot.
+Made an electron app that automatically processes the local sqlite database used by Apple Photos to create an interactive visualization of various internal ML metrics used by Apple to categorize/rate your photos. Quality scores, detected age/facial expressions/race/sex/etc, etc. Made with a mix of svelte/electron/observable plot.
 
 ### Municipal Finance OCR Project
 
