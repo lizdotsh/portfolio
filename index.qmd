@@ -23,6 +23,7 @@ This page is very much a WIP and not everything is on here yet.
 This portfolio site is automatically built using quarto and deployed to Cloudflare Pages using github actions containers. All linked notebooks are rendered as well as native sub pages, and all PDFs and other linked documents are directly hosted in /assets. 
 
 All assets are not directly part of the repo itself, but are downloaded by the cloudflare action using build.sh. This allows me to change and sub project and still have the latest version at any regen, and allows me to have separate github repos for each project.
+
 ### MinLizHash
 <table class="bayes">
 <td>[Github](https://github.com/lizdotsh/minlizhash)
