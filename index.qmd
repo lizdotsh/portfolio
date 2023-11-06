@@ -23,13 +23,20 @@ This page is very much a WIP and not everything is on here yet.
 This portfolio site is automatically built using quarto and deployed to Cloudflare Pages using github actions containers. All linked notebooks are rendered as well as native sub pages, and all PDFs and other linked documents are directly hosted in /assets. 
 
 All assets are not directly part of the repo itself, but are downloaded by the cloudflare action using build.sh. This allows me to change and sub project and still have the latest version at any regen, and allows me to have separate github repos for each project.
+### MinLizHash
+<table class="bayes">
+<td>[Github](https://github.com/lizdotsh/minlizhash)
+</tr></table>
 
-### Apple Photos DB Examiner (WIP)
+This is a simple implementation of the MinHash LSH deduplication algorithm. MinHash is an approximation of the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between two sets. If you treat documents as bags of tokens, you can use this to measure the overlap of two documents. This is very inefficient, and minhash exploits hash colliisions to essentially generate a random variable that is the jaccard similarity in the limit. If you do this process many times with many
+different hash seeds, it gets quite accurate (central limit theorem is very useful!). LSH is a method for taking these hash signatures and bucketing them with hash bands to make duplication lookup at a large scale orders of magnitude faster (sub O(N)).
+
+### Apple Photos DB Examiner
 <table class="bayes">
 <td> [Github](https://github.com/lizdotsh/Apple-Photos-DB-Examiner)
 </tr></table>
 
-Made an electron app that processes the local sqlite databse used by Apple Photos to create an interactive visualization of various internal ML metrics used by Apple to categorize/rate your photos. Quality scores, detected age/facial expressions/race/sex/etc, etc. Very WIP at the moment but is usable. Made with a mix of svelte/electron/observable plot.
+Made an electron app that automatically processes the local sqlite databse used by Apple Photos to create an interactive visualization of various internal ML metrics used by Apple to categorize/rate your photos. Quality scores, detected age/facial expressions/race/sex/etc, etc. Made with a mix of svelte/electron/observable plot.
 
 ### Municipal Finance OCR Project
 
