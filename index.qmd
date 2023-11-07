@@ -12,8 +12,6 @@ lightbox: auto
 fontsize: 11pt
 ---
 
-This page is very much a WIP and not everything is on here yet.
-
 ## Projects
 
 ### This Portfolio!
